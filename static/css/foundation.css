@@ -4029,9 +4029,9 @@ form.custom .custom.disabled {
   left: 0;
   position: relative;
   width: auto;
-  -webkit-transition: left 300ms ease-out;
-  -moz-transition: left 300ms ease-out;
-  transition: left 300ms ease-out;
+  -webkit-transition: left 600ms ease-out;
+  -moz-transition: left 600ms ease-out;
+  transition: left 600ms ease-out;
 }
 /* line 216, ../sass/foundation/components/_top-bar.scss */
 .top-bar-section ul {
@@ -4176,7 +4176,7 @@ form.custom .custom.disabled {
 
 /* line 349, ../sass/foundation/components/_top-bar.scss */
 .top-bar-js-breakpoint {
-  width: 58.75em !important;
+  width: 63.625em !important;
   visibility: hidden;
 }
 
@@ -4185,7 +4185,7 @@ form.custom .custom.disabled {
   display: block;
 }
 
-@media only screen and (min-width: 58.75em) {
+@media only screen and (min-width: 63.625em) {
   /* line 358, ../sass/foundation/components/_top-bar.scss */
   .top-bar {
     background: #f4003d;

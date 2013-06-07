@@ -3,3 +3,7 @@
 *.*~
 *.cache
 static/.sass-cache/
+
+views/jade/sections/.DS_Store
+
+.DS_Store
