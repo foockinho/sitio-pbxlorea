@@ -6369,3 +6369,8 @@ a.th {
 .top-bar-section .dropdown li a {
   background: #222222;
 }
+
+/* line 10, ../sass/_webpbxlorea.scss */
+.listin {
+  width: 100%;
+}
