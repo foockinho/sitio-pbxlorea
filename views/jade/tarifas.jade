@@ -1,0 +1,8 @@
+extends page
+
+block content
+    if logged
+        include pages/tarifas
+    else
+        p not logged
+
