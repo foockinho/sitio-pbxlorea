@@ -1,8 +1,7 @@
-extends page
+extends includes/page
 
 block content
     if logged
         include pages/listin
     else
-        p not logged
-
+        include includes/login

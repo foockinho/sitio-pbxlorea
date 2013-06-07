@@ -1,20 +1,10 @@
-ul.pagination(id="call_pagination")
-    li.arrow.unavailable // flecha a la izquierda. usar clase unavailable cuando no haya mas paginas a la izquierda.
-        a(href="#") &laquo;
-    li.current
-        a(href="#") 1
-    li
-        a(href="#") 2
-    li
-        a(href="#") 3
-    li.unavailable
-        a(href="#") &hellip; // signo "..."
-    li
-        a(href="#") 12
-    li
-        a(href="#") 13
-    li
-        a(href="#") 14
-    li.arrow
-        a(href="") &raquo;
-
+.row
+    .large-6.large-centered.columns.panel
+        h5 Necesitas iniciar sesión para ver ésta página.
+        .row
+            .large-6.columns
+                label Usuario
+                input(type="text")
+                label Contraseña
+                input(type="password")
+                a.button.radius(href="#") Entrar
