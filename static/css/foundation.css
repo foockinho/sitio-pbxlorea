@@ -6374,3 +6374,10 @@ a.th {
 .listin {
   width: 100%;
 }
+
+/* line 11, ../sass/_webpbxlorea.scss */
+.map {
+  width: 1000px;
+  height: 500px;
+  background: #333;
+}
