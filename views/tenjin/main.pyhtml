@@ -1,0 +1,10 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <?py include(':head') ?>
+  </head>
+  <body>
+  <?py include(':nav') ?>
+  <?py include(':content') ?>
+  </body>
+</html>

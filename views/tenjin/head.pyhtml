@@ -1,0 +1,6 @@
+<script src="/static/js/vendor/angular.min.js"></script>
+<script src="/static/js/foundation.min.js"></script>
+<script src="/static/js/todo.js"></script>
+<link rel="stylesheet" href="/static/css/foundation.min.css" />
+<link rel="stylesheet" href="/static/css/todo.css" />
+

@@ -1,0 +1,27 @@
+doctype 5
+html(lang="en", ng-app)
+  head
+    block head
+        title= pageTitle
+        include head
+  body
+    if logged
+        include nav-logged
+    else
+        include nav-notlogged
+    block content
+        p No content here
+    block footer
+        include footer
+    block endscript
+        script
+        script(src="/static/js/vendor/zepto.js")
+        script(src="/static/js/foundation.min.js")
+        script(src="/static/js/zepto-slide-transition.min.js")
+        script
+            $(document).foundation();
+            $(document).ready(function(){
+                $('#desplegar-menu').click(function(){
+                    $('#menu').fadeToggle();
+                });
+            });

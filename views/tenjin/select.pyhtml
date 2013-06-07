@@ -1,0 +1,17 @@
+<?py import helper ?>
+<?py from helper import * ?>
+<form>
+  <label>Select your language:</label>
+  <select name="lang">
+<?py table = { params['lang']: ' selected="selected"' } ?>
+<?py for val, name in languages: ?>
+    <option value="${{val}}" #{table.get(#{{repr(val)}}, '')}>${{name}}</option>
+<?py #endfor ?>
+  </select>
+  <input type="submit" value="OK" />
+</form>
+<p>
+  #{{link_to('Back', action='index')}} |
+  #{{link_to('Show '+_P('params["name"]'), action='show', id=_p('params["id"]'))}}
+</p>
+<?py include('bla.html') ?>
