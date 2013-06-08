@@ -1,13 +1,15 @@
 .row
 		.large-12.large-centered.columns
-				h5 Salas de teleconferencia
+			h4 Salas de teleconferencia
+			p En esta sección puedes obtener información sobre las salas creadas y las extensiones de cada una para acceder via teléfono o cliente SIP. Puedes navegar por el árbol de categorías para localizar una sala.
+			.row
 				.large-3.columns.panel
 						.row.collapse
 								.small-9.columns
-										input(type="text")
+										input(type="text", placeholder="Nombre de la sala")
 								.small-3.columns
 										a.button.postfix.radius(href="#") Crear sala
-						input(type="text", placeholder="Buscar")
+						input(type="text", placeholder="Buscar una sala")
 						label(for="customDropdown1") Filtrar por categoría
 						select#customDropdown1.medium
 								option this is a dropdown
@@ -21,37 +23,34 @@
 							li hola4
 							li hola5
 							li hola6
-				.large-9.columns.panel
-						.row
-								.large-12.columns
-										p En esta sección puedes obtener información sobre las salas creadas y las extensiones de cada una para acceder via teléfono o cliente SIP. Puedes navegar por el árbol de categorías para localizar una sala.
-										h6 Mis salas
-										table.listin
-												thead
-														tr
-															th Sala
-															th Extensión
-															th Categoría
-															th Usuarios
-												tbody
-														tr
-															td Sala01
-																	img(src="/static/img/keys.png")
-																	img(src="/static/img/keys.png")
-															td 1234
-															td categoria01
-															td 45
-														tr
-															td Sala01
-																	img(src="/static/img/keys.png")
-																	img(src="/static/img/keys.png")
-															td 3333
-															td categoria01
-															td 45
-														tr
-															td Sala01
-																	img(src="/static/img/keys.png")
-																	img(src="/static/img/keys.png")
-															td 6665
-															td categoria01
-															td 45
+				.large-9.columns
+					h5 Mis salas
+					table.listin
+						thead
+							tr
+								th Sala
+								th Extensión
+								th Categoría
+								th Usuarios
+						tbody
+							tr
+								td Sala01
+										img(src="/static/img/keys.png")
+										img(src="/static/img/keys.png")
+								td 1234
+								td categoria01
+								td 45
+							tr
+								td Sala01
+										img(src="/static/img/keys.png")
+										img(src="/static/img/keys.png")
+								td 3333
+								td categoria01
+								td 45
+							tr
+								td Sala01
+										img(src="/static/img/keys.png")
+										img(src="/static/img/keys.png")
+								td 6665
+								td categoria01
+								td 45
