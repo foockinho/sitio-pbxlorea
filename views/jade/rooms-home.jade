@@ -1,0 +1,7 @@
+extends includes/page
+
+block content
+		if logged
+				include pages/rooms-home
+		else
+				include includes/login
