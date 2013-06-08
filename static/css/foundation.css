@@ -6226,7 +6226,7 @@ a.th {
   /* remove if not needed */
   margin-left: .2em;
   /* you can be more comfortable with increased icons size */
-  font-size: 120%;
+  font-size: 140%;
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -6380,4 +6380,19 @@ a.th {
   width: 1000px;
   height: 500px;
   background: #333;
+}
+
+/* line 13, ../sass/_webpbxlorea.scss */
+.phonebook:hover:after {
+  content: "Listín";
+}
+
+/* line 14, ../sass/_webpbxlorea.scss */
+.voicemail:hover:after {
+  content: " Buzón";
+}
+
+/* line 15, ../sass/_webpbxlorea.scss */
+.rooms:hover:after {
+  content: "Salas";
 }
