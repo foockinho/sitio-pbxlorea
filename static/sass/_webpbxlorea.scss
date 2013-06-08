@@ -5,16 +5,21 @@
 .inline-list { margin-left:19%;} }
 .imagen-footer {position: absolute;}
 .top-bar input, .top-bar .button { top: 0px; }
-.numero { text-align: center; }
+li.numero { text-align: center; background: $topbar-dropdown-bg; color: white; font-size: 120%}
+li.numero:before { font-size: 100% }
 .top-bar-section .dropdown li a { background: $topbar-dropdown-bg; }
 .listin { width: 100% }
 .map {width: 1000px; height: 500px; background: #333;}
 // top bar text on hover
 .phonebook:hover:after {content: "Listín"}
 .voicemail:hover:after {content: " Buzón"}
-.rooms:hover:after {content: "Salas"}
-@media only screen and (max-width: #{$topbar-breakpoint}) {
+.rooms:hover:after {content: "Salas" }
+.rooms:hover:before, .voicemail:hover:before, .phonebook:hover:before { margin-right: 0.5em; }
+@media only screen and (max-width: #{$topbar-breakpoint}-1) {
 .phonebook:after {content: "Listín"}
-.voicemail:after {content: " Buzón"}
+.voicemail:after {content: "Buzón"}
 .rooms:after {content: "Salas"}	
 }
+@media only screen and (min-width: #{$topbar-breakpoint}) {
+.rooms:before, .voicemail:before, .phonebook:before { margin: 0 } }
+.icon-phone-circled:before { font-size: 100% }

@@ -4,7 +4,7 @@
 $include-html-top-bar-classes: $include-html-classes !default;
 
 // Background color for the top bar
-$topbar-bg:                            #f4003d !default;
+$topbar-bg:                            #d30025 !default;
 
 // Height and margin
 $topbar-height:                        45px !default;
@@ -35,7 +35,7 @@ $topbar-link-hover-lightness:          -30% !default; // Darken by 30%
 $topbar-link-bg-hover:                 darken($topbar-bg, 3%) !default;
 $topbar-link-bg-active:                darken($topbar-bg, 3%) !default;
 
-$topbar-dropdown-label-color:          #555 !default;
+$topbar-dropdown-label-color:          white !default;
 $topbar-dropdown-label-text-transform: uppercase !default;
 $topbar-dropdown-label-font-weight:    bold !default;
 $topbar-dropdown-label-font-size:      emCalc(10px) !default;
@@ -51,7 +51,7 @@ $topbar-menu-icon-color-toggled:       #888 !default;
 
 // Transitions and breakpoint styles
 $topbar-transition-speed:              300ms !default;
-$topbar-breakpoint:                    emCalc(1018px) !default; // Change to 9999px for always mobile layout
+$topbar-breakpoint:                    emCalc(1014px) !default; // Change to 9999px for always mobile layout
 $topbar-media-query:                   "only screen and (min-width: #{$topbar-breakpoint})" !default;
 
 // Divider Styles
@@ -240,7 +240,7 @@ $topbar-sticky-class:                  ".sticky" !default;
         padding-#{$default-float}: $topbar-height / 3;
         font-size: $topbar-link-font-size;
         font-weight: $topbar-link-weight;
-        background: $topbar-dropdown-bg;
+        // background: $topbar-dropdown-bg;
 
         &.hover {
           background: $topbar-link-bg-hover;
