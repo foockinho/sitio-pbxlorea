@@ -6396,3 +6396,20 @@ a.th {
 .rooms:hover:after {
   content: "Salas";
 }
+
+@media only screen and (max-width: 63.625em) {
+  /* line 17, ../sass/_webpbxlorea.scss */
+  .phonebook:after {
+    content: "Listín";
+  }
+
+  /* line 18, ../sass/_webpbxlorea.scss */
+  .voicemail:after {
+    content: " Buzón";
+  }
+
+  /* line 19, ../sass/_webpbxlorea.scss */
+  .rooms:after {
+    content: "Salas";
+  }
+}

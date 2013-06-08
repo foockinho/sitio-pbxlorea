@@ -13,3 +13,8 @@
 .phonebook:hover:after {content: "Listín"}
 .voicemail:hover:after {content: " Buzón"}
 .rooms:hover:after {content: "Salas"}
+@media only screen and (max-width: #{$topbar-breakpoint}) {
+.phonebook:after {content: "Listín"}
+.voicemail:after {content: " Buzón"}
+.rooms:after {content: "Salas"}	
+}
