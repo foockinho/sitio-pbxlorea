@@ -1,8 +1,9 @@
+body {font-size: 90%;}
 #menu { background: #333; width: 100%; }
 .topmenu { font-size: 0.9em; }
 // .inline-list { font-size: 0.8em; }
 @media screen and (min-width: 48em) {
-.inline-list { margin-left:19%;} }
+#footer ul.inline-list { margin-left:19%;} }
 .imagen-footer {position: absolute;}
 .top-bar input, .top-bar .button { top: 0px; }
 li.numero { text-align: center; background: $topbar-dropdown-bg; color: white; font-size: 120%}
