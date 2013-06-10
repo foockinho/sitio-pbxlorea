@@ -1,0 +1,142 @@
+.row
+	.large-12.large-centered.columns
+		h4 Salas de teleconferencia
+		p En esta sección puedes obtener información sobre las salas creadas y las extensiones de cada una para acceder via teléfono o cliente SIP. Puedes navegar por el árbol de categorías para localizar una sala.
+		.row
+			.large-3.columns
+				.panel
+					a.button.radius.expand(href="#") Crear una nueva sala
+				.panel
+					input(type="text", placeholder="Buscar una sala")
+					form(class="custom")
+						label(for="categorias") Filtrar por categoría
+						select#categorias
+							option this is a dropdown
+							option another option
+							option(disabled) opcion desactivada
+				.panel
+					.drilldown: .drilldown-container
+						ul.drilldown-root
+							li.subcat
+								a(href="#") formas >>
+								ul.drilldown-sub
+									li.drilldown-back: a(href="#") << salas
+									li circulo
+									li cuadrado
+							li.subcat
+								a(href="#") colores >>
+								ul.drilldown-sub
+									li.drilldown-back: a(href="#") << salas
+									li rojo
+									li azul
+									li.subcat
+										a(href="#") mas colores >>
+										ul.drilldown-sub
+											li.drilldown-back: a(href="#") << colores
+											li marron
+											li verde
+							li Sala 1
+							li.subcat
+								a(href="#") paises >>
+								ul.drilldown-sub
+									li.drilldown-back: a(href="#") << paises
+									li cuba
+									li francia
+									li.subcat
+										a(href="#") korea >>
+										ul.drilldown-sub
+											li.drilldown-back: a(href="#") << korea
+											li del norte
+											li del sur
+							li Sala 2
+			.large-9.columns.panel
+				a.button.small(href="../rooms-home") Mis salas
+				.row
+						.large-9.columns
+								.row
+										.large-7.columns
+												h4 Sala: Nodos
+												h5 Extension: 1234
+												h5 Tipo de acceso: Sala privada
+										.large-5.columns
+												ul.inline-list
+														li Estado
+														li
+																img(src="/static/img/active2.png")
+
+												ul.button-group
+														li
+																a.button.tiny(href="#") Editar
+														li
+																a.button.tiny(href="#") Bloquear
+														li
+																a.button.tiny(href="#") Borrar
+								.row
+										.large-12.columns
+												h4 Descripción
+												p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at ornare orci. Mauris nec volutpat sapien. Fusce tincidunt pharetra augue. Integer turpis diam, vulputate a euismod quis, interdum at ante. Suspendisse feugiat vel metus vel ullamcorper. Donec a placerat nisl. Nulla eget urna interdum, adipiscing urna non, posuere erat. Vestibulum accumsan, felis sit amet consectetur porttitor, tellus dolor iaculis purus, sit amet commodo lectus elit sit amet felis. Curabitur pretium elit quis magna ultricies, vel tempor tellus sagittis. Vestibulum dignissim sollicitudin bibendum. Nunc fringilla velit sed odio gravida vulputate.
+						.large-3.columns
+								h5 Usuarios
+								table.listin
+											tbody
+												tr
+													td 
+														img(src="/static/img/roomUser.png")
+													td usuario01
+												tr
+													td 
+														img(src="/static/img/roomUser.png")
+													td usuario02
+								ul
+										li 
+												ul.inline-list
+														li 
+																img(src="/static/img/roomUser.png")
+														li 	usuario01
+										li 
+												ul.inline-list
+														li 
+																img(src="/static/img/roomUser.png")
+														li 	usuario02
+										li 
+												ul.inline-list
+														li 
+																img(src="/static/img/roomUser.png")
+														li 	usuario03
+						.row
+								.large-12.columns
+										h4 Lista de grabaciones de la sala
+										table.listin
+											thead
+												tr
+													th Sala
+											tbody
+												tr
+													td Pista:nombrepista01.ogg
+												tr
+													td 
+														audio(src="Audio/MHXSEagle.mp3", type="audio/mp3", controls="controls")
+													td Borrar
+													td Descargar
+												tr
+													td Pista:nombrepista02.ogg
+												tr
+													td 
+														audio(src="Audio/MHXSEagle.mp3", type="audio/mp3", controls="controls")
+													td Borrar
+													td Descargar
+												tr
+													td Pista:nombrepista03.ogg
+												tr
+													td
+														audio(src="Audio/MHXSEagle.mp3", type="audio/mp3", controls="controls")
+													td Borrar
+													td Descargar
+						.row
+								.large-12.columns
+										ul.inline-list
+												li
+														a.button.small(href="#") Detener grabación
+												li Se está grabando la actividad de la sala en el archivo nombrepista04.ogg
+
+										

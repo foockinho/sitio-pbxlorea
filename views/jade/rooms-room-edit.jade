@@ -1,0 +1,19 @@
+extends includes/page
+
+block content
+		if logged
+				include pages/rooms-room-edit
+		else
+				include includes/login
+block endscript
+		script(src="/static/js/vendor/jquery.js")
+		script(src="/static/js/drilldown.min.js")
+		script(src="/static/js/foundation.min.js")
+		script
+			$(document).foundation();
+			$('.drilldown').drilldown();
+			$(document).ready(function(){
+				$('#desplegar-menu').click(function(){
+					$('#menu').fadeToggle();
+				});
+			});
