@@ -11,15 +11,36 @@ li.numero:before { font-size: 100% }
 .listin { width: 100% }
 .map {width: 1000px; height: 500px; background: #333;}
 // top bar text on hover
-.phonebook:hover:after {content: "Listín"}
-.voicemail:hover:after {content: " Buzón"}
-.rooms:hover:after {content: "Salas" }
-.rooms:hover:before, .voicemail:hover:before, .phonebook:hover:before { margin-right: 0.5em; }
+.icon-phone-circled:before { font-size: 100% }
+.drilldown {
+overflow: hidden;
+height: 200px;
+-webkit-transform: translate3d(0,0,0);
+-moz-transform: translate3d(0,0,0);
+-ms-transform: translate3d(0,0,0);
+-o-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+}
+.drilldown ul { list-style: none; margin: 0;}
+.drilldown ul li { margin: 5px 0 5px 0; padding: 5px 0 5px 10px; }
+.subcat { background: white; }
+.drilldown-sub {
+display: none;
+}
+.drilldown-back {
+font-weight: bold;
+background: white;
+}
 @media only screen and (max-width: #{$topbar-breakpoint}-1) {
-.phonebook:after {content: "Listín"}
-.voicemail:after {content: "Buzón"}
-.rooms:after {content: "Salas"}	
+.drilldown ul li { padding: 20px 0 20px 10px; background: black; }
+.anillas { display: none; }
 }
 @media only screen and (min-width: #{$topbar-breakpoint}) {
-.rooms:before, .voicemail:before, .phonebook:before { margin: 0 } }
-.icon-phone-circled:before { font-size: 100% }
+.icon-voicemail:after, { content: '\e800'; }
+.icon-voicemail:before, { display: none; }
+.menuhover { display: none; }
+a:hover .menuhover { display: inline-block; }
+.derecho { padding-left: 1.5em;}
+.izquierdo { padding-right: 1.5em;}
+.anillas { position: absolute; 	width: 80px; height: 19em; margin-left: 28.75em; background: url(/static/img/anillas.png) repeat-y }
+}

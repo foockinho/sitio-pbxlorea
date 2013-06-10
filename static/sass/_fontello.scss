@@ -19,12 +19,11 @@
 }
 */
  
- [class^="icon-"]:before, [class*=" icon-"]:before {
+ [class^="icon-"]:before, [class*=" icon-"]:before, [class^="icon-"]:after, [class*=" icon-"]:after {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   speak: none;
- 
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
@@ -49,11 +48,12 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
+
+
 .icon-bitcoin:before { content: '\e801'; } /* '' */
 .icon-exchange:before { content: '\e811'; } /* '' */
 .icon-cog:before { content: '\e810'; } /* '' */
-.icon-voicemail:before { content: '\e800'; } /* '' */
+.icon-voicemail:before, { content: '\e800'; } /* '' */
 .icon-qrcode:before { content: '\e807'; } /* '' */
 .icon-phone-circled:before { content: '\e804'; } /* '' */
 .icon-network:before { content: '\e81c'; } /* '' */

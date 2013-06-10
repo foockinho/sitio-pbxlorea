@@ -1,56 +1,76 @@
 .row
-		.large-12.large-centered.columns
-			h4 Salas de teleconferencia
-			p En esta sección puedes obtener información sobre las salas creadas y las extensiones de cada una para acceder via teléfono o cliente SIP. Puedes navegar por el árbol de categorías para localizar una sala.
-			.row
-				.large-3.columns.panel
-						.row.collapse
-								.small-9.columns
-										input(type="text", placeholder="Nombre de la sala")
-								.small-3.columns
-										a.button.postfix.radius(href="#") Crear sala
-						input(type="text", placeholder="Buscar una sala")
-						label(for="customDropdown1") Filtrar por categoría
-						select#customDropdown1.medium
-								option this is a dropdown
-								option another option
-								option another option
-						ul titulo?
-							li hola
-							li hola2
-							li hola3
-						ul titulo 2?
-							li hola4
-							li hola5
-							li hola6
-				.large-9.columns
-					h5 Mis salas
-					table.listin
-						thead
-							tr
-								th Sala
-								th Extensión
-								th Categoría
-								th Usuarios
-						tbody
-							tr
-								td Sala01
-										img(src="/static/img/keys.png")
-										img(src="/static/img/keys.png")
-								td 1234
-								td categoria01
-								td 45
-							tr
-								td Sala01
-										img(src="/static/img/keys.png")
-										img(src="/static/img/keys.png")
-								td 3333
-								td categoria01
-								td 45
-							tr
-								td Sala01
-										img(src="/static/img/keys.png")
-										img(src="/static/img/keys.png")
-								td 6665
-								td categoria01
-								td 45
+	.large-12.large-centered.columns
+		h4 Salas de teleconferencia
+		p En esta sección puedes obtener información sobre las salas creadas y las extensiones de cada una para acceder via teléfono o cliente SIP. Puedes navegar por el árbol de categorías para localizar una sala.
+		.row
+			.large-3.columns
+				.panel
+					a.button.radius.expand(href="#") Crear una nueva sala
+				.panel
+					input(type="text", placeholder="Buscar una sala")
+					form(class="custom")
+						label(for="categorias") Filtrar por categoría
+						select#categorias
+							option this is a dropdown
+							option another option
+							option(disabled) opcion desactivada
+				.panel
+					.drilldown: .drilldown-container
+						ul.drilldown-root
+							li.subcat
+								a(href="#") formas >>
+								ul.drilldown-sub
+									li.drilldown-back: a(href="#") << salas
+									li circulo
+									li cuadrado
+							li.subcat
+								a(href="#") colores >>
+								ul.drilldown-sub
+									li.drilldown-back: a(href="#") << salas
+									li rojo
+									li azul
+									li.subcat
+										a(href="#") mas colores >>
+										ul.drilldown-sub
+											li.drilldown-back: a(href="#") << colores
+											li marron
+											li verde
+							li Sala 1
+							li.subcat
+								a(href="#") paises >>
+								ul.drilldown-sub
+									li.drilldown-back: a(href="#") << paises
+									li cuba
+									li francia
+									li.subcat
+										a(href="#") korea >>
+										ul.drilldown-sub
+											li.drilldown-back: a(href="#") << korea
+											li del norte
+											li del sur
+							li Sala 2
+			.large-9.columns
+				h5 Mis salas
+				table.listin
+					thead
+						tr
+							th Sala
+							th Extensión
+							th Categoría
+							th Usuarios
+					tbody
+						tr
+							td Sala01
+							td 1234
+							td categoria01
+							td 45
+						tr
+							td Sala01
+							td 3333
+							td categoria01
+							td 45
+						tr
+							td Sala01
+							td 6665
+							td categoria01
+							td 45
