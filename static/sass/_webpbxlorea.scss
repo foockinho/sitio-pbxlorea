@@ -1,4 +1,12 @@
-body {font-size: 90%;}
+$light-blue: #00ccff;
+$light-fucsia: #ff325b;
+$text-color-light: #eee;
+$text-color-dark: #333;
+$background-color-dark: #222;
+$background-color-light: #eee;
+
+body {font-size: 90%; background: $background-color-light; color: $text-color-dark;}
+h1, h2, h3, h4, h5, h6 {color: $text-color-dark}
 #menu { background: #333; width: 100%; }
 .topmenu { font-size: 0.9em; }
 // .inline-list { font-size: 0.8em; }
@@ -10,7 +18,18 @@ li.numero { text-align: center; background: $topbar-dropdown-bg; color: white; f
 li.numero:before { font-size: 100% }
 .top-bar-section .dropdown li a { background: $topbar-dropdown-bg; }
 .listin { width: 100% }
-.map {width: 1000px; height: 500px; background: #333;}
+.map { width: 1000px; height: 500px; background: #333;}
+#references ul, .refs { list-style-type: none; margin-left: 0;}
+.refs { width:16px; height: 16px; float: left;} 
+.rflast{ clear: right;}
+.all-free {background: #ccff00;}
+.fixed-free1 {background: $light-blue;}
+.fixed-free2 {background: darken($light-blue, 20%);}
+.fixed-free3 {background: darken($light-blue, 40%);}
+.nothing-free1 {background: $light-fucsia;}
+.nothing-free2 {background: darken($light-fucsia, 20%);}
+.nothing-free3 {background: darken($light-fucsia, 40%);}
+
 // top bar text on hover
 .icon-phone-circled:before { font-size: 100% }
 .drilldown {
@@ -25,23 +44,21 @@ transform: translate3d(0,0,0);
 .drilldown ul { list-style: none; margin: 0;}
 .drilldown ul li { margin: 5px 0 5px 0; padding: 5px 0 5px 10px; }
 .subcat { background: white; }
-.drilldown-sub {
-display: none;
-}
+.drilldown-sub { display: none;}
 .drilldown-back {
-font-weight: bold;
-background: white;
+	font-weight: bold;
+	background: white;
 }
 @media only screen and (max-width: #{$topbar-breakpoint}-1) {
-.drilldown ul li { padding: 20px 0 20px 10px; background: black; }
-.anillas { display: none; }
+	.drilldown ul li { padding: 20px 0 20px 10px; background: black; }
+	.anillas { display: none; }
 }
 @media only screen and (min-width: #{$topbar-breakpoint}) {
-.icon-voicemail:after, { content: '\e800'; }
-.icon-voicemail:before, { display: none; }
-.menuhover { display: none; }
-a:hover .menuhover { display: inline-block; }
-.derecho { padding-left: 1.5em;}
-.izquierdo { padding-right: 1.5em;}
-.anillas { position: absolute; 	width: 80px; height: 19em; margin-left: 28.75em; background: url(/static/img/anillas.png) repeat-y }
+	.icon-voicemail:after, { content: '\e800'; }
+	.icon-voicemail:before, { display: none; }
+	.menuhover { display: none; }
+	a:hover .menuhover { display: inline-block; }
+	.derecho { padding-left: 1.5em;}
+	.izquierdo { padding-right: 1.5em;}
+	.anillas { position: absolute; 	width: 80px; height: 19em; margin-left: 28.75em; background: url(/static/img/anillas.png) repeat-y }
 }
