@@ -6397,7 +6397,7 @@ li.numero:before {
 /* line 21, ../sass/_webpbxlorea.scss */
 .map {
   width: 1000px;
-  height: 500px;
+  height: 300px;
   background: #333;
 }
 
@@ -6405,6 +6405,7 @@ li.numero:before {
 #references ul, .refs {
   list-style-type: none;
   margin-left: 0;
+  color: #eeeeee;
 }
 
 /* line 23, ../sass/_webpbxlorea.scss */

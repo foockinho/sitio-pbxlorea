@@ -18,8 +18,8 @@ li.numero { text-align: center; background: $topbar-dropdown-bg; color: white; f
 li.numero:before { font-size: 100% }
 .top-bar-section .dropdown li a { background: $topbar-dropdown-bg; }
 .listin { width: 100% }
-.map { width: 1000px; height: 500px; background: #333;}
-#references ul, .refs { list-style-type: none; margin-left: 0;}
+.map { width: 1000px; height: 300px; background: #333;}
+#references ul, .refs { list-style-type: none; margin-left: 0; color:$text-color-light;}
 .refs { width:16px; height: 16px; float: left;} 
 .rflast{ clear: right;}
 .all-free {background: #ccff00;}
