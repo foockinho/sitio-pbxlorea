@@ -1,31 +1,77 @@
 .row
 		.large-12.large-centered.columns
-				h4 Editar Sala
+				h3 Editar Sala
 				p texto que explica las opciones de edicion de una sala
 		.row.panel
-				.large-5.columns
+				.large-6.columns
 						.row
 								.large-12.columns
 										h4 Sala: Blabla
 										.small-3.columns
 												label.right.inline(for="right-label") Nombre
 										.small-9.columns
-												input(type="text", id="right-label", placeholder="hola")
+												input(type="text", id="right-label")
 						.row
 								.large-12.columns
 										.small-3.columns
 												label.right.inline(for="right-label") PIN
 										.small-9.columns
-												input(type="text", id="right-label", placeholder="hola")
+												input(type="text", id="right-label")
 						.row
 								.large-12.columns
-										.small-7.columns
-												label.left.inline(for="customDropdown1") Tipo de acceso
+										.small-4.columns
+												label.left(for="customDropdown1") Tipo de acceso
 										.small-5.columns
 												select.medium.left(id="custom-dropdown")
 														option Publica
 														option Privada
+						.row
+								.large-12.columns
+										input(type="text", placeholder="Descripción")
+				
+				.row
+					.large-6.columns
+							h5 Categoría
+							p Seleccionala del siguiente menu de navegación				
+							.drilldown: .drilldown-container
+								ul.drilldown-root
+									li.subcat
+										a(href="#") formas >>
+										ul.drilldown-sub
+											li.drilldown-back: a(href="#") << salas
+											li circulo
+											li cuadrado
+									li.subcat
+										a(href="#") colores >>
+										ul.drilldown-sub
+											li.drilldown-back: a(href="#") << salas
+											li rojo
+											li azul
+											li.subcat
+												a(href="#") mas colores >>
+												ul.drilldown-sub
+													li.drilldown-back: a(href="#") << colores
+													li marron
+													li verde
+									li Sala 1
+									li.subcat
+										a(href="#") paises >>
+										ul.drilldown-sub
+											li.drilldown-back: a(href="#") << paises
+											li cuba
+											li francia
+											li.subcat
+												a(href="#") korea >>
+												ul.drilldown-sub
+													li.drilldown-back: a(href="#") << korea
+													li del norte
+													li del sur
+									li Sala 2
 				.row
 						.large-12.columns
-								input(type="text", placeholder="Descripción")
+								ul.inline-list
+										li
+												a.button.small(href="#") Guardar
+										li
+												a.button.small(href="#") Cancelar
 								
