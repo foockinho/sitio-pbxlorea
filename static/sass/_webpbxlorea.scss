@@ -60,6 +60,9 @@ transform: translate3d(0,0,0);
 	a:hover .menuhover { display: inline-block; }
 	.derecho { padding-left: 1.5em;}
 	.izquierdo { padding-right: 1.5em;}
-	.anillas { position: absolute; 	width: 80px; height: 19em; margin-left: 28.75em; background: url(/static/img/anillas.png) repeat-y }
+	.anillas { position: absolute; 	width: 80px; height: 19em; margin-left: 28.75em; background: url(/static/img/anillas3.png) repeat-y }
 }
 .statsbox{width: 100%; height: 150px; background: $background-color-dark; margin-bottom: 15px;}
+.stat-lastdiv { float:left !important;}
+.services ul, .services li {list-style-type: none;}
+.services img{width: 100%;}

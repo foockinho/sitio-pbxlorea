@@ -6548,7 +6548,7 @@ li.numero:before {
     width: 80px;
     height: 19em;
     margin-left: 28.75em;
-    background: url(/static/img/anillas.png) repeat-y;
+    background: url(/static/img/anillas3.png) repeat-y;
   }
 }
 /* line 65, ../sass/_webpbxlorea.scss */
@@ -6557,4 +6557,19 @@ li.numero:before {
   height: 150px;
   background: #222222;
   margin-bottom: 15px;
+}
+
+/* line 66, ../sass/_webpbxlorea.scss */
+.stat-lastdiv {
+  float: left !important;
+}
+
+/* line 67, ../sass/_webpbxlorea.scss */
+.services ul, .services li {
+  list-style-type: none;
+}
+
+/* line 68, ../sass/_webpbxlorea.scss */
+.services img {
+  width: 100%;
 }
