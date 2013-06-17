@@ -1,0 +1,7 @@
+extends includes/page
+
+block content
+    if logged
+        include pages/estadisticas
+    else
+        include includes/login
