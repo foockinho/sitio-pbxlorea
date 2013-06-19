@@ -1,90 +1,15 @@
 extends includes/page
 
 block content
-	.row: .large-12.columns
-		h3 Ayuda
-		.section-container.auto(data-section)
-			section
-				p.title(data-section-title)
-					a(href="#panel1") Configuración
-				.content(data-section-content)
-					.row: .large-12.columns
-							p Aquí puedes encontrar enlaces de descarga y tutoriales de configuración para clientes de telefonía libres y con soporte de cifrado.
-					.row
-						.large-6.columns
-							h4 Android
-							.row.collapse
-								.small-6.columns
-									a.button.radius.small.expand.prefix(href="#") Descargar CSIPsimple
-								.small-6.columns
-									a.button.radius.small.expand.postfix(href="#") Cómo configurarlo
-							p También puedes instalarlo desde Google Play.
-						.large-6.columns
-							h4 Linux
-							.row.collapse
-								.small-6.columns
-									a.button.radius.small.expand.prefix(href="#") Descargar SFLphone
-								.small-6.columns
-									a.button.radius.small.expand.postfix(href="#") Cómo configurarlo
-							p También puedes instalarlo desde el repositorio:<br /><kbd>sudo add-apt-repository ppa:savoirfairelinux</kbd>
-					.row: .large-12.columns
-						h4 Otro software
-						ul
-							li Cuenta SIP
-								ul
-									li Nombre de cuenta: tu nombre de usuario
-									li ID de la cuenta: <sips:tu_usuario@pbx.lorea.org>
-									li URI de registro: sips:pbx.lorea.org
-							li Autentificación SIP
-								ul
-									li <b>Nombre de usuario:</b> tu nombre de usuario
-									li Dato (Contraseña): tu contraseña
-									li Connection
-									li Protocolo de comunicacion: TLS
-									li Publicar el estado/presencia: activar (opcional)
-									li Servidor proxy
-									li URI del proxy: sips:pbx.lorea.org
-									li Medio de transporte
-									li Modo SRTP: Obligatorio
-							li Varios
-								ul: li Mensaje de voz: * (opcional)
-			section
-				p.title(data-section-title)
-					a(href="#panel2") Preguntas frecuentes
-				.content(data-section-content)
-					ul
-						li
-							h6 El sonido se entrecorta
-							p Seguramente tu conexion no sea muy buena o esta muy saturada. Prueba a configurar el codec GSM en tu terminal o en tus opciones de la página web (seleccionar calidad baja).
-						li
-							h6 No me escuchan o al principio se escucha y luego deja de escucharse
-							p Puede ser un problema de configuracion del terminal, y lo mejor es que lo investiguemos. Llama al administrador (extension 0) para explicarle tu problema.
-			section
-				p.title(data-section-title)
-					a(href="#panel3") Solución de problemas
-				.content(data-section-content)
-					ul
-						li
-							h6 Prueba de eco
-							p Es útil para comprobar el estado de la conexión entre tu y la centralita. De este modo te aseguras de que no sea un problema del proveedor. Llama a la extensión 08 desde tu movil o softphone y comprueba que, tras escuchar la locución, puedes hablar y escuchar lo que dices un poco mas tarde. calidad baja).
-						li
-							h6 Llamar a la administradora
-							p Llama a la extensión 0 para hablar con una persona que pueda ayudarte a solucionar tu problema.
-			section
-				p.title(data-section-title)
-					a(href="#panel3") Servicios de la centralita
-				.content(data-section-content)
-					.row
-						.large-6.columns
-							h6  Buzon de voz (*)
-							p Llamando al * obtienes acceso a tu buzón de voz.
-						.large-6.columns
-							h6 Llamar a la administradora (0)
-							p Llama a la extensión 0 para hablar con una persona que pueda ayudarte a solucionar tu problema.
-					.row
-						.large-6.columns
-							h6 Sala de conferencias de prueba (05)
-							p Puedes testear la funcionalidad de las salas de conferencia, mientras el servicio no termine su fase de desarrollo.
-						.large-6.columns
-							h6 Locuciones (502 o 505)
-							p Llama para escuchar unas locuciones de prueba.
+	.row
+		.large-12.large-centered-columns
+				h3 Ayuda
+				.section-container.auto(data-section)
+						section
+								include /sections/helptab1
+						section
+								include /sections/helptab2
+						section
+								include /sections/helptab3
+						section
+								include /sections/helptab4

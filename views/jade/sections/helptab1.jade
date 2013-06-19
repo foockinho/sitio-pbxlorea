@@ -1,0 +1,43 @@
+p.title(data-section-title)
+	a(href="#panel1") Configuración
+.content(data-section-content)
+	.row: .large-12.columns
+			p Aquí puedes encontrar enlaces de descarga y tutoriales de configuración para clientes de telefonía libres y con soporte de cifrado.
+	.row
+		.large-6.columns
+			h4 Android
+			.row.collapse
+				.small-6.columns
+					a.button.radius.small.expand.prefix(href="#") Descargar CSIPsimple
+				.small-6.columns
+					a.button.radius.small.expand.postfix(href="#") Cómo configurarlo
+			p También puedes instalarlo desde Google Play.
+		.large-6.columns
+			h4 Linux
+			.row.collapse
+				.small-6.columns
+					a.button.radius.small.expand.prefix(href="#") Descargar SFLphone
+				.small-6.columns
+					a.button.radius.small.expand.postfix(href="#") Cómo configurarlo
+			p También puedes instalarlo desde el repositorio:<br /><kbd>sudo add-apt-repository ppa:savoirfairelinux</kbd><br /><kbd>sudo apt-get update</kbd><br /><kbd>sudo apt-get install sflphone-gnome</kbd><br />o<br /><kbd>sudo apt-get install sflphone-client-kde</kbd>
+	.row: .large-12.columns
+		h4 Otro software
+		ul
+			li Cuenta SIP
+				ul
+					li Nombre de cuenta: tu nombre de usuario
+					li ID de la cuenta: <sips:tu_usuario@pbx.lorea.org>
+					li URI de registro: sips:pbx.lorea.org
+			li Autentificación SIP
+				ul
+					li <b>Nombre de usuario:</b> tu nombre de usuario
+					li Dato (Contraseña): tu contraseña
+					li Connection
+					li Protocolo de comunicacion: TLS
+					li Publicar el estado/presencia: activar (opcional)
+					li Servidor proxy
+					li URI del proxy: sips:pbx.lorea.org
+					li Medio de transporte
+					li Modo SRTP: Obligatorio
+			li Varios
+				ul: li Mensaje de voz: * (opcional)
