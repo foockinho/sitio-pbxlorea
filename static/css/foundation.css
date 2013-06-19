@@ -6572,4 +6572,10 @@ li.numero:before {
 /* line 68, ../sass/_webpbxlorea.scss */
 .services img {
   width: 100%;
+  margin-bottom: 15px;
+}
+
+/* line 69, ../sass/_webpbxlorea.scss */
+.services p {
+  text-align: justify;
 }
