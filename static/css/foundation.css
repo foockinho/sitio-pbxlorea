@@ -6579,3 +6579,37 @@ li.numero:before {
 .services p {
   text-align: justify;
 }
+
+/* line 70, ../sass/_webpbxlorea.scss */
+.buzonau {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  /* line 73, ../sass/_webpbxlorea.scss */
+  .heading-buz {
+    display: none;
+  }
+
+  /* line 74, ../sass/_webpbxlorea.scss */
+  .mess-date:before {
+    content: 'Fecha';
+    font-weight: bold;
+  }
+
+  /* line 75, ../sass/_webpbxlorea.scss */
+  .mess-origin:before {
+    content: 'Origen';
+    font-weight: bold;
+  }
+
+  /* line 76, ../sass/_webpbxlorea.scss */
+  .mess-down {
+    float: left;
+  }
+
+  /* line 77, ../sass/_webpbxlorea.scss */
+  .mess-del {
+    float: left;
+  }
+}

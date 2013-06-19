@@ -67,3 +67,13 @@ transform: translate3d(0,0,0);
 .services ul, .services li {list-style-type: none;}
 .services img{width: 100%; margin-bottom: 15px;}
 .services p {text-align: justify;}
+.buzonau {width:100%;}
+
+@media ( max-width: 768px) {
+	.heading-buz {display:none;}
+	.mess-date:before, { content: 'Fecha'; font-weight:bold;}
+	.mess-origin:before, { content: 'Origen'; font-weight:bold;	}
+	.mess-down { float:left;}
+	.mess-del { float:left;}
+
+}
