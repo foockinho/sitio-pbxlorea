@@ -6592,26 +6592,28 @@ li.numero:before {
   }
 
   /* line 74, ../sass/_webpbxlorea.scss */
-  .mess-date:before {
-    content: 'Fecha';
-    font-weight: bold;
+  .mess-date {
+    margin: 10px 0 3px 0;
   }
-
-  /* line 75, ../sass/_webpbxlorea.scss */
-  .mess-origin:before {
-    content: 'Origen';
-    font-weight: bold;
-  }
-
   /* line 76, ../sass/_webpbxlorea.scss */
-  .mess-down {
-    clear: none;
-    float: left;
+  .mess-date :before {
+    content: 'Fecha  ';
+    font-weight: bold;
   }
 
-  /* line 77, ../sass/_webpbxlorea.scss */
-  .mess-del {
-    clear: none;
-    float: left;
+  /* line 78, ../sass/_webpbxlorea.scss */
+  .mess-origin {
+    margin: -10px 0 0 0;
+  }
+  /* line 80, ../sass/_webpbxlorea.scss */
+  .mess-origin :before {
+    content: 'Origen  ';
+    font-weight: bold;
+  }
+
+  /* line 82, ../sass/_webpbxlorea.scss */
+  .mess-opts {
+    margin-top: -10px;
+    margin-bottom: 30px;
   }
 }

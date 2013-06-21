@@ -70,10 +70,15 @@ transform: translate3d(0,0,0);
 .buzonau {width:100%;}
 
 @media ( max-width: 768px) {
-	.heading-buz {display:none;}
-	.mess-date:before, { content: 'Fecha'; font-weight:bold;}
-	.mess-origin:before, { content: 'Origen'; font-weight:bold;	}
-	.mess-down { clear: none; float:left;}
-	.mess-del { clear: none; float:left;}
+	.heading-buz { display:none;}
+	.mess-date {
+		margin: 10px 0 3px 0;
+		:before, { content: 'Fecha  '; font-weight:bold;}
+	}
+	.mess-origin {
+		margin: -10px 0 0 0;
+		:before, { content: 'Origen  '; font-weight:bold;	}
+	}
+	.mess-opts {margin-top: -10px; margin-bottom: 30px;}
 
 }
