@@ -73,7 +73,7 @@ transform: translate3d(0,0,0);
 	.heading-buz {display:none;}
 	.mess-date:before, { content: 'Fecha'; font-weight:bold;}
 	.mess-origin:before, { content: 'Origen'; font-weight:bold;	}
-	.mess-down { float:left;}
-	.mess-del { float:left;}
+	.mess-down { clear: none; float:left;}
+	.mess-del { clear: none; float:left;}
 
 }

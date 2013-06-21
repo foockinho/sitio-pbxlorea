@@ -6605,11 +6605,13 @@ li.numero:before {
 
   /* line 76, ../sass/_webpbxlorea.scss */
   .mess-down {
+    clear: none;
     float: left;
   }
 
   /* line 77, ../sass/_webpbxlorea.scss */
   .mess-del {
+    clear: none;
     float: left;
   }
 }
