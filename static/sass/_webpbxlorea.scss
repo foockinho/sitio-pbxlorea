@@ -68,11 +68,9 @@ transform: translate3d(0,0,0);
 .services img{width: 100%; margin-bottom: 15px;}
 .services p {text-align: justify;}
 .buzonau {width:100%;}
-.roomuser:before, {content:'';
-}
 .userlist{list-style-type: none; margin-left: 0; padding-left:0;}
-.roomuser-mute:before, {}
-.roomuser-blocked:before, {}
+.roomuser-mute:before, { content: url(/static/img/user-mute.png);}
+.roomuser-blocked:before, { content: url(/static/img/user-block.png);}
 
 
 @media ( max-width: 768px) {
