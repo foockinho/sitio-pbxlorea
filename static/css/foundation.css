@@ -6585,33 +6585,45 @@ li.numero:before {
   width: 100%;
 }
 
+/* line 71, ../sass/_webpbxlorea.scss */
+.roomuser:before {
+  content: '';
+}
+
+/* line 73, ../sass/_webpbxlorea.scss */
+.userlist {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
 @media (max-width: 768px) {
-  /* line 73, ../sass/_webpbxlorea.scss */
+  /* line 79, ../sass/_webpbxlorea.scss */
   .heading-buz {
     display: none;
   }
 
-  /* line 74, ../sass/_webpbxlorea.scss */
+  /* line 80, ../sass/_webpbxlorea.scss */
   .mess-date {
     margin: 10px 0 3px 0;
   }
-  /* line 76, ../sass/_webpbxlorea.scss */
+  /* line 82, ../sass/_webpbxlorea.scss */
   .mess-date :before {
     content: 'Fecha  ';
     font-weight: bold;
   }
 
-  /* line 78, ../sass/_webpbxlorea.scss */
+  /* line 84, ../sass/_webpbxlorea.scss */
   .mess-origin {
     margin: -10px 0 0 0;
   }
-  /* line 80, ../sass/_webpbxlorea.scss */
+  /* line 86, ../sass/_webpbxlorea.scss */
   .mess-origin :before {
     content: 'Origen  ';
     font-weight: bold;
   }
 
-  /* line 82, ../sass/_webpbxlorea.scss */
+  /* line 88, ../sass/_webpbxlorea.scss */
   .mess-opts {
     margin-top: -10px;
     margin-bottom: 30px;

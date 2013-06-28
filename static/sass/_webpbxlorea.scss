@@ -68,6 +68,12 @@ transform: translate3d(0,0,0);
 .services img{width: 100%; margin-bottom: 15px;}
 .services p {text-align: justify;}
 .buzonau {width:100%;}
+.roomuser:before, {content:'';
+}
+.userlist{list-style-type: none; margin-left: 0; padding-left:0;}
+.roomuser-mute:before, {}
+.roomuser-blocked:before, {}
+
 
 @media ( max-width: 768px) {
 	.heading-buz { display:none;}
@@ -80,5 +86,4 @@ transform: translate3d(0,0,0);
 		:before, { content: 'Origen  '; font-weight:bold;	}
 	}
 	.mess-opts {margin-top: -10px; margin-bottom: 30px;}
-
 }
