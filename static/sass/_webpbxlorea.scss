@@ -9,7 +9,7 @@ body {font-size: 90%; background: $background-color-light; color: $text-color-da
 h1, h2, h3, h4, h5, h6 {color: $text-color-dark}
 #menu { background: #333; width: 100%; }
 .topmenu { font-size: 0.9em; }
-// .inline-list { font-size: 0.8em; }
+#footer {margin-top: 20px; background: #333; height: 122px;}
 @media screen and (min-width: 48em) {
 #footer ul.inline-list { margin-left:19%;} }
 .imagen-footer {position: absolute;}
@@ -54,8 +54,6 @@ transform: translate3d(0,0,0);
 	.anillas { display: none; }
 }
 @media only screen and (min-width: #{$topbar-breakpoint}) {
-	.icon-voicemail:after, { content: '\e800'; }
-	.icon-voicemail:before, { display: none; }
 	.menuhover { display: none; }
 	a:hover .menuhover { display: inline-block; }
 	.derecho { padding-left: 1.5em;}
@@ -71,6 +69,7 @@ transform: translate3d(0,0,0);
 .userlist{list-style-type: none; margin-left: 0; padding-left:0;}
 .roomuser-mute:before, { content: url(/static/img/user-mute.png);}
 .roomuser-blocked:before, { content: url(/static/img/user-block.png);}
+.contact-mess{height: 100px;}
 
 
 @media ( max-width: 768px) {

@@ -6249,7 +6249,7 @@ a.th {
 
 /* '' */
 /* line 56, ../sass/_fontello.scss */
-.icon-voicemail:before {
+.icon-voicemail:after {
   content: '\e800';
 }
 
@@ -6273,7 +6273,7 @@ a.th {
 
 /* '' */
 /* line 60, ../sass/_fontello.scss */
-.icon-address-book:before {
+.icon-address-book:after {
   content: '\e813';
 }
 
@@ -6291,7 +6291,7 @@ a.th {
 
 /* '' */
 /* line 63, ../sass/_fontello.scss */
-.icon-rooms:before {
+.icon-rooms:after {
   content: '\e805';
 }
 
@@ -6353,6 +6353,13 @@ h1, h2, h3, h4, h5, h6 {
 /* line 11, ../sass/_webpbxlorea.scss */
 .topmenu {
   font-size: 0.9em;
+}
+
+/* line 12, ../sass/_webpbxlorea.scss */
+#footer {
+  margin-top: 20px;
+  background: #333;
+  height: 122px;
 }
 
 @media screen and (min-width: 48em) {
@@ -6513,36 +6520,26 @@ li.numero:before {
 }
 @media only screen and (min-width: 63.375em) {
   /* line 57, ../sass/_webpbxlorea.scss */
-  .icon-voicemail:after {
-    content: '\e800';
-  }
-
-  /* line 58, ../sass/_webpbxlorea.scss */
-  .icon-voicemail:before {
-    display: none;
-  }
-
-  /* line 59, ../sass/_webpbxlorea.scss */
   .menuhover {
     display: none;
   }
 
-  /* line 60, ../sass/_webpbxlorea.scss */
+  /* line 58, ../sass/_webpbxlorea.scss */
   a:hover .menuhover {
     display: inline-block;
   }
 
-  /* line 61, ../sass/_webpbxlorea.scss */
+  /* line 59, ../sass/_webpbxlorea.scss */
   .derecho {
     padding-left: 1.5em;
   }
 
-  /* line 62, ../sass/_webpbxlorea.scss */
+  /* line 60, ../sass/_webpbxlorea.scss */
   .izquierdo {
     padding-right: 1.5em;
   }
 
-  /* line 63, ../sass/_webpbxlorea.scss */
+  /* line 61, ../sass/_webpbxlorea.scss */
   .anillas {
     position: absolute;
     width: 80px;
@@ -6551,7 +6548,7 @@ li.numero:before {
     background: url(/static/img/anillas3.png) repeat-y;
   }
 }
-/* line 65, ../sass/_webpbxlorea.scss */
+/* line 63, ../sass/_webpbxlorea.scss */
 .statsbox {
   width: 100%;
   height: 150px;
@@ -6559,76 +6556,81 @@ li.numero:before {
   margin-bottom: 15px;
 }
 
-/* line 66, ../sass/_webpbxlorea.scss */
+/* line 64, ../sass/_webpbxlorea.scss */
 .stat-lastdiv {
   float: left !important;
 }
 
-/* line 67, ../sass/_webpbxlorea.scss */
+/* line 65, ../sass/_webpbxlorea.scss */
 .services ul, .services li {
   list-style-type: none;
 }
 
-/* line 68, ../sass/_webpbxlorea.scss */
+/* line 66, ../sass/_webpbxlorea.scss */
 .services img {
   width: 100%;
   margin-bottom: 15px;
 }
 
-/* line 69, ../sass/_webpbxlorea.scss */
+/* line 67, ../sass/_webpbxlorea.scss */
 .services p {
   text-align: justify;
 }
 
-/* line 70, ../sass/_webpbxlorea.scss */
+/* line 68, ../sass/_webpbxlorea.scss */
 .buzonau {
   width: 100%;
 }
 
-/* line 71, ../sass/_webpbxlorea.scss */
+/* line 69, ../sass/_webpbxlorea.scss */
 .userlist {
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
 }
 
-/* line 72, ../sass/_webpbxlorea.scss */
+/* line 70, ../sass/_webpbxlorea.scss */
 .roomuser-mute:before {
   content: url(/static/img/user-mute.png);
 }
 
-/* line 73, ../sass/_webpbxlorea.scss */
+/* line 71, ../sass/_webpbxlorea.scss */
 .roomuser-blocked:before {
   content: url(/static/img/user-block.png);
 }
 
+/* line 72, ../sass/_webpbxlorea.scss */
+.contact-mess {
+  height: 100px;
+}
+
 @media (max-width: 768px) {
-  /* line 77, ../sass/_webpbxlorea.scss */
+  /* line 76, ../sass/_webpbxlorea.scss */
   .heading-buz {
     display: none;
   }
 
-  /* line 78, ../sass/_webpbxlorea.scss */
+  /* line 77, ../sass/_webpbxlorea.scss */
   .mess-date {
     margin: 10px 0 3px 0;
   }
-  /* line 80, ../sass/_webpbxlorea.scss */
+  /* line 79, ../sass/_webpbxlorea.scss */
   .mess-date :before {
     content: 'Fecha  ';
     font-weight: bold;
   }
 
-  /* line 82, ../sass/_webpbxlorea.scss */
+  /* line 81, ../sass/_webpbxlorea.scss */
   .mess-origin {
     margin: -10px 0 0 0;
   }
-  /* line 84, ../sass/_webpbxlorea.scss */
+  /* line 83, ../sass/_webpbxlorea.scss */
   .mess-origin :before {
     content: 'Origen  ';
     font-weight: bold;
   }
 
-  /* line 86, ../sass/_webpbxlorea.scss */
+  /* line 85, ../sass/_webpbxlorea.scss */
   .mess-opts {
     margin-top: -10px;
     margin-bottom: 30px;
