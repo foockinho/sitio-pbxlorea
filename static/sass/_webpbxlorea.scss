@@ -11,7 +11,8 @@ h1, h2, h3, h4, h5, h6 {color: $text-color-dark}
 .topmenu { font-size: 0.9em; }
 #footer {margin-top: 20px; background: #333; height: 122px;}
 @media screen and (min-width: 48em) {
-#footer ul.inline-list { margin-left:19%;} }
+	#footer ul.inline-list { margin-left:19%; padding-top: 6%;}
+ }
 .imagen-footer {position: absolute;}
 .top-bar input, .top-bar .button { top: 0px; }
 li.numero { text-align: center; background: $topbar-dropdown-bg; color: white; font-size: 120%}

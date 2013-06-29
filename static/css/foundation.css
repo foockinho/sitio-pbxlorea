@@ -6366,19 +6366,20 @@ h1, h2, h3, h4, h5, h6 {
   /* line 14, ../sass/_webpbxlorea.scss */
   #footer ul.inline-list {
     margin-left: 19%;
+    padding-top: 6%;
   }
 }
-/* line 15, ../sass/_webpbxlorea.scss */
+/* line 16, ../sass/_webpbxlorea.scss */
 .imagen-footer {
   position: absolute;
 }
 
-/* line 16, ../sass/_webpbxlorea.scss */
+/* line 17, ../sass/_webpbxlorea.scss */
 .top-bar input, .top-bar .button {
   top: 0px;
 }
 
-/* line 17, ../sass/_webpbxlorea.scss */
+/* line 18, ../sass/_webpbxlorea.scss */
 li.numero {
   text-align: center;
   background: #222222;
@@ -6386,88 +6387,88 @@ li.numero {
   font-size: 120%;
 }
 
-/* line 18, ../sass/_webpbxlorea.scss */
+/* line 19, ../sass/_webpbxlorea.scss */
 li.numero:before {
   font-size: 100%;
 }
 
-/* line 19, ../sass/_webpbxlorea.scss */
+/* line 20, ../sass/_webpbxlorea.scss */
 .top-bar-section .dropdown li a {
   background: #222222;
 }
 
-/* line 20, ../sass/_webpbxlorea.scss */
+/* line 21, ../sass/_webpbxlorea.scss */
 .listin {
   width: 100%;
 }
 
-/* line 21, ../sass/_webpbxlorea.scss */
+/* line 22, ../sass/_webpbxlorea.scss */
 .map {
   width: 100%;
   height: 300px;
   background: #333;
 }
 
-/* line 22, ../sass/_webpbxlorea.scss */
+/* line 23, ../sass/_webpbxlorea.scss */
 #references ul, .refs {
   list-style-type: none;
   margin-left: 0;
   color: #eeeeee;
 }
 
-/* line 23, ../sass/_webpbxlorea.scss */
+/* line 24, ../sass/_webpbxlorea.scss */
 .refs {
   width: 16px;
   height: 16px;
   float: left;
 }
 
-/* line 24, ../sass/_webpbxlorea.scss */
+/* line 25, ../sass/_webpbxlorea.scss */
 .rflast {
   clear: right;
 }
 
-/* line 25, ../sass/_webpbxlorea.scss */
+/* line 26, ../sass/_webpbxlorea.scss */
 .all-free {
   background: #ccff00;
 }
 
-/* line 26, ../sass/_webpbxlorea.scss */
+/* line 27, ../sass/_webpbxlorea.scss */
 .fixed-free1 {
   background: #00ccff;
 }
 
-/* line 27, ../sass/_webpbxlorea.scss */
+/* line 28, ../sass/_webpbxlorea.scss */
 .fixed-free2 {
   background: #007a99;
 }
 
-/* line 28, ../sass/_webpbxlorea.scss */
+/* line 29, ../sass/_webpbxlorea.scss */
 .fixed-free3 {
   background: #002933;
 }
 
-/* line 29, ../sass/_webpbxlorea.scss */
+/* line 30, ../sass/_webpbxlorea.scss */
 .nothing-free1 {
   background: #ff325b;
 }
 
-/* line 30, ../sass/_webpbxlorea.scss */
+/* line 31, ../sass/_webpbxlorea.scss */
 .nothing-free2 {
   background: #cb0029;
 }
 
-/* line 31, ../sass/_webpbxlorea.scss */
+/* line 32, ../sass/_webpbxlorea.scss */
 .nothing-free3 {
   background: #650014;
 }
 
-/* line 34, ../sass/_webpbxlorea.scss */
+/* line 35, ../sass/_webpbxlorea.scss */
 .icon-phone-circled:before {
   font-size: 100%;
 }
 
-/* line 35, ../sass/_webpbxlorea.scss */
+/* line 36, ../sass/_webpbxlorea.scss */
 .drilldown {
   overflow: hidden;
   height: 200px;
@@ -6478,68 +6479,68 @@ li.numero:before {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 44, ../sass/_webpbxlorea.scss */
+/* line 45, ../sass/_webpbxlorea.scss */
 .drilldown ul {
   list-style: none;
   margin: 0;
 }
 
-/* line 45, ../sass/_webpbxlorea.scss */
+/* line 46, ../sass/_webpbxlorea.scss */
 .drilldown ul li {
   margin: 5px 0 5px 0;
   padding: 5px 0 5px 10px;
 }
 
-/* line 46, ../sass/_webpbxlorea.scss */
+/* line 47, ../sass/_webpbxlorea.scss */
 .subcat {
   background: white;
 }
 
-/* line 47, ../sass/_webpbxlorea.scss */
+/* line 48, ../sass/_webpbxlorea.scss */
 .drilldown-sub {
   display: none;
 }
 
-/* line 48, ../sass/_webpbxlorea.scss */
+/* line 49, ../sass/_webpbxlorea.scss */
 .drilldown-back {
   font-weight: bold;
   background: white;
 }
 
 @media only screen and (max-width: 63.375em -1) {
-  /* line 53, ../sass/_webpbxlorea.scss */
+  /* line 54, ../sass/_webpbxlorea.scss */
   .drilldown ul li {
     padding: 20px 0 20px 10px;
     background: black;
   }
 
-  /* line 54, ../sass/_webpbxlorea.scss */
+  /* line 55, ../sass/_webpbxlorea.scss */
   .anillas {
     display: none;
   }
 }
 @media only screen and (min-width: 63.375em) {
-  /* line 57, ../sass/_webpbxlorea.scss */
+  /* line 58, ../sass/_webpbxlorea.scss */
   .menuhover {
     display: none;
   }
 
-  /* line 58, ../sass/_webpbxlorea.scss */
+  /* line 59, ../sass/_webpbxlorea.scss */
   a:hover .menuhover {
     display: inline-block;
   }
 
-  /* line 59, ../sass/_webpbxlorea.scss */
+  /* line 60, ../sass/_webpbxlorea.scss */
   .derecho {
     padding-left: 1.5em;
   }
 
-  /* line 60, ../sass/_webpbxlorea.scss */
+  /* line 61, ../sass/_webpbxlorea.scss */
   .izquierdo {
     padding-right: 1.5em;
   }
 
-  /* line 61, ../sass/_webpbxlorea.scss */
+  /* line 62, ../sass/_webpbxlorea.scss */
   .anillas {
     position: absolute;
     width: 80px;
@@ -6548,7 +6549,7 @@ li.numero:before {
     background: url(/static/img/anillas3.png) repeat-y;
   }
 }
-/* line 63, ../sass/_webpbxlorea.scss */
+/* line 64, ../sass/_webpbxlorea.scss */
 .statsbox {
   width: 100%;
   height: 150px;
@@ -6556,81 +6557,81 @@ li.numero:before {
   margin-bottom: 15px;
 }
 
-/* line 64, ../sass/_webpbxlorea.scss */
+/* line 65, ../sass/_webpbxlorea.scss */
 .stat-lastdiv {
   float: left !important;
 }
 
-/* line 65, ../sass/_webpbxlorea.scss */
+/* line 66, ../sass/_webpbxlorea.scss */
 .services ul, .services li {
   list-style-type: none;
 }
 
-/* line 66, ../sass/_webpbxlorea.scss */
+/* line 67, ../sass/_webpbxlorea.scss */
 .services img {
   width: 100%;
   margin-bottom: 15px;
 }
 
-/* line 67, ../sass/_webpbxlorea.scss */
+/* line 68, ../sass/_webpbxlorea.scss */
 .services p {
   text-align: justify;
 }
 
-/* line 68, ../sass/_webpbxlorea.scss */
+/* line 69, ../sass/_webpbxlorea.scss */
 .buzonau {
   width: 100%;
 }
 
-/* line 69, ../sass/_webpbxlorea.scss */
+/* line 70, ../sass/_webpbxlorea.scss */
 .userlist {
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
 }
 
-/* line 70, ../sass/_webpbxlorea.scss */
+/* line 71, ../sass/_webpbxlorea.scss */
 .roomuser-mute:before {
   content: url(/static/img/user-mute.png);
 }
 
-/* line 71, ../sass/_webpbxlorea.scss */
+/* line 72, ../sass/_webpbxlorea.scss */
 .roomuser-blocked:before {
   content: url(/static/img/user-block.png);
 }
 
-/* line 72, ../sass/_webpbxlorea.scss */
+/* line 73, ../sass/_webpbxlorea.scss */
 .contact-mess {
   height: 100px;
 }
 
 @media (max-width: 768px) {
-  /* line 76, ../sass/_webpbxlorea.scss */
+  /* line 77, ../sass/_webpbxlorea.scss */
   .heading-buz {
     display: none;
   }
 
-  /* line 77, ../sass/_webpbxlorea.scss */
+  /* line 78, ../sass/_webpbxlorea.scss */
   .mess-date {
     margin: 10px 0 3px 0;
   }
-  /* line 79, ../sass/_webpbxlorea.scss */
+  /* line 80, ../sass/_webpbxlorea.scss */
   .mess-date :before {
     content: 'Fecha  ';
     font-weight: bold;
   }
 
-  /* line 81, ../sass/_webpbxlorea.scss */
+  /* line 82, ../sass/_webpbxlorea.scss */
   .mess-origin {
     margin: -10px 0 0 0;
   }
-  /* line 83, ../sass/_webpbxlorea.scss */
+  /* line 84, ../sass/_webpbxlorea.scss */
   .mess-origin :before {
     content: 'Origen  ';
     font-weight: bold;
   }
 
-  /* line 85, ../sass/_webpbxlorea.scss */
+  /* line 86, ../sass/_webpbxlorea.scss */
   .mess-opts {
     margin-top: -10px;
     margin-bottom: 30px;
